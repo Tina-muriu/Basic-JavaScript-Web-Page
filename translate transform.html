@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Thema</title>
+    <style>
+        p {
+            border: 1px solid red;
+            transform: translate(130px, 80px);
+            
+        }
+        body{
+            color: aqua;
+            background-color: black;
+        }
+    </style>
+    <script>
+        window.onload=function(e){
+            
+            var senior=3;
+            var age=23;
+
+            if(age<30){
+                senior +=1;
+
+            } else if(age>10){
+                senior+=5;
+            }
+            var Person={
+                firstName:"Bob",
+                lastName:"Kichwa",
+                seniority: senior
+            }
+            console.log(Person);
+            }
+        
+    </script>
+</head>
+<body>
+    <p>How are you my friend ?</p>
+</body>
+</html>
